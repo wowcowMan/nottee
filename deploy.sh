@@ -8,6 +8,7 @@ npm run build
 
 # navigate into the build output directory
 cd dist
+git push -f https://github.com/wowcowMan/nottee.git main:gh-pages
 
 # place .nojekyll to bypass Jekyll processing
 echo > .nojekyll
@@ -24,6 +25,6 @@ git commit -m 'deploy'
 # git push -f https://github.com:wowcowman/wowcowman.github.io.git main
 
 # if you are deploying to https://wowcowman.github.io/nottee
-git push -f https://github.com:wowcowMan/nottee.git main:gh-pages
+git push -f https://github.com/wowcowMan/nottee.git main:gh-pages
 
 cd -
