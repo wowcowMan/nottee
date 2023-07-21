@@ -9,6 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/nottee/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
