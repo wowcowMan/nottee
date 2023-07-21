@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://wowcowman.github.io
-# git push -f git@github.com:wowcowman/wowcowman.github.io.git main
+# git push -f https://github.com:wowcowman/wowcowman.github.io.git main
 
 # if you are deploying to https://wowcowman.github.io/nottee
-git push -f git@github.com:wowcowman/nottee.git main:gh-pages
+git push -f https://github.com:wowcowMan/nottee.git main:gh-pages
 
 cd -
